@@ -25,4 +25,12 @@ public class Testing
        String ActualResult = Maximum.getMaximum("gh","ij","kl");
         Assert.assertEquals("kl",ActualResult);
     }
+
+    @Test
+    public void shouldFindMaxinClass_findCorrectOne_fromGiven3Values()
+    {
+       Maximum maximum = new Maximum<>(1,2,3);
+       int ActualResult = (int) maximum.getMaximum();
+       Assert.assertEquals(3,ActualResult);
+    }
 }
