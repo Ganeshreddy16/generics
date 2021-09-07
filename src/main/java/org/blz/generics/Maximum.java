@@ -1,14 +1,14 @@
 package org.blz.generics;
 
 public class Maximum {
-    public static void main(String[] args) {
-        Integer a = 8, b = 3, c = 4;
-        getMaximum(a, b, c);
-    }
+//    public static void main(String[] args) {
+//        Integer a = 8, b = 3, c = 4;
+//        getMaximum(a, b, c);
+//    }
 
-    public static Integer getMaximum(Integer a, Integer b, Integer c) {
+    public static Float getMaximum(Float a, Float b, Float c) {
 
-        Integer max = a;
+        Float max = a;
         if (b.compareTo(a) > 0 && b.compareTo(c) > 0) {
             max = b;
         }
