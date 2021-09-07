@@ -6,9 +6,9 @@ public class Maximum {
 //        getMaximum(a, b, c);
 //    }
 
-    public static String getMaximum(String a, String b, String c) {
+    public static <E extends  Comparable> E getMaximum(E a, E b, E c) {
 
-        String max = a;
+        E max = a;
         if (b.compareTo(a) > 0 && b.compareTo(c) > 0) {
             max = b;
         }
