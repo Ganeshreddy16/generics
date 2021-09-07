@@ -1,20 +1,16 @@
 package org.blz.generics;
 
-import static org.junit.Assert.assertTrue;
-
+import org.junit.Assert;
 import org.junit.Test;
 
-/**
- * Unit test for simple App.
- */
+
 public class AppTest 
 {
-    /**
-     * Rigorous Test :-)
-     */
+
     @Test
-    public void shouldAnswerWithTrue()
+    public void shouldFindMAxInteger_findCorrectOne_fromGiven3Values()
     {
-        assertTrue( true );
+       int ActualResult = Maximum.getMaximum(8,3,4);
+        Assert.assertEquals(8,ActualResult);
     }
 }

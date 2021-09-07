@@ -17,18 +17,4 @@ public class PrintArray {
     }
 }
 
-//    public static void toPrint(Integer[] array){
-//        for (int i=0; i<array.length;i++)
-//
-//            System.out.println(array[i]);
-//    }
-//    public static void toPrint(Double[] doubArray) {
-//        for (int i = 0; i < doubArray.length; i++)
-//            System.out.println(doubArray[i]);
-//    }
-//    public static void toPrint (Character[] charArray){
-//        for (int i = 0; i< charArray.length;i++)
-//            System.out.println(charArray[i]);
-
-
 
