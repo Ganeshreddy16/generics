@@ -6,9 +6,9 @@ public class Maximum {
 //        getMaximum(a, b, c);
 //    }
 
-    public static Float getMaximum(Float a, Float b, Float c) {
+    public static String getMaximum(String a, String b, String c) {
 
-        Float max = a;
+        String max = a;
         if (b.compareTo(a) > 0 && b.compareTo(c) > 0) {
             max = b;
         }

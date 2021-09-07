@@ -8,9 +8,9 @@ public class Testing
 {
 
     @Test
-    public void shouldFindMAxFloat_findCorrectOne_fromGiven3Values()
+    public void shouldFindMaxString_findCorrectOne_fromGiven3Values()
     {
-       float ActualResult = Maximum.getMaximum(8.4f,3.3f,4.5f);
-        Assert.assertEquals(8.4f,ActualResult,0.0);
+       String ActualResult = Maximum.getMaximum("gh","ij","kl");
+        Assert.assertEquals("kl",ActualResult);
     }
 }
